@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>404 — Moe Kyaw Aung Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Fira+Code&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #080B10; color: #EDF2F7;
+    font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    text-align: center; padding: 24px;
+  }
+  .code { font-family: 'Fira Code', monospace; font-size: 11px; color: #5A6A7E; margin-bottom: 32px; line-height: 1.8; }
+  .code .teal { color: #00E5FF; } .code .orange { color: #FF6D00; } .code .green { color: #69F0AE; }
+  h1 { font-size: clamp(80px,15vw,140px); font-weight: 700; letter-spacing: -0.05em; line-height: 1;
+       background: linear-gradient(135deg,#00E5FF,#69F0AE); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 16px; }
+  p { color: #A0AFC0; font-size: 17px; margin-bottom: 40px; }
+  a { display: inline-block; padding: 12px 32px; background: #00E5FF; color: #080B10; border-radius: 10px; font-weight: 700; font-size: 14px; text-decoration: none; transition: box-shadow .2s; }
+  a:hover { box-shadow: 0 0 32px rgba(0,229,255,0.5); }
+</style>
+</head>
+<body>
+  <div>
+    <div class="code">
+      <div><span class="teal">throw</span> <span class="orange">NotFoundException</span>(</div>
+      <div>&nbsp;&nbsp;<span class="green">"Page not found at this path"</span></div>
+      <div>)</div>
+    </div>
+    <h1>404</h1>
+    <p>This page doesn't exist — but the portfolio does.</p>
+    <a href="/moe-kyaw-aung-portfolio/">← Back to Portfolio</a>
+  </div>
+</body>
+</html>
